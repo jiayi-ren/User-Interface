@@ -65,10 +65,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h1, h2, button {
+	font-family: 'Gochi Hand';
+}
+
 .navigation {
 	display: inline-block;
 	width: 72%;
 	text-align: center;
+	padding-top: 2%;
 }
 
 .navigation a{
@@ -76,7 +81,11 @@ h1, h2, h3, h4, h5 {
 	padding: 0 2%;
 	width: 1/6;
 	text-decoration: none;
-	color: grey;
+	color: white;
+}
+
+.navigation a:hover {
+	color: black;
 }
 
 .logo {
@@ -86,6 +95,15 @@ h1, h2, h3, h4, h5 {
 }
 .logo img{
 	margin: 5% 0;
+}
+
+/* .logo img:hover{
+	im
+} */
+
+.nav-bar{
+	background-color: #98aceb;
+	position: sticky; top: 0;
 }
 
 header{
@@ -117,6 +135,13 @@ h1 {
 
 button {
 	padding: 1% 10%;
+	border:1px solid black;
+	background-color: white;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
 }
 
 header img {
@@ -165,4 +190,29 @@ header img {
 
 footer{
 	text-align:center;
+}
+
+#features:hover p{
+	color: blue;
+	font-family: 'Caveat Brush';
+}
+
+#about:hover p{
+	color: blue;
+	font-family: 'Caveat Brush';
+}
+
+#services:hover p{
+	color: blue;
+	font-family: 'Caveat Brush';
+}
+
+#product:hover p{
+	color: blue;
+	font-family: 'Caveat Brush';
+}
+
+#vision:hover p{
+	color: blue;
+	font-family: 'Caveat Brush';
 }
