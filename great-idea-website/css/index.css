@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
 }
 
 html, body {
@@ -64,3 +65,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation {
+	display: inline-block;
+	width: 72%;
+	text-align: center;
+}
+
+.navigation a{
+	margin:5% 2% ;
+	padding: 0 2%;
+	width: 1/6;
+	text-decoration: none;
+	color: grey;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 25%;
+}
+.logo img{
+	margin: 5% 0;
+}
+
+header{
+	padding: 5% 0;
+	text-align: center;
+	font-size: 0;
+}
+
+header div{
+	width: 50%;
+	height: 50%;
+}
+
+.header-section {
+	display: inline-block;
+	padding-top: 5%;
+	margin: auto 0;
+	vertical-align: top;
+}
+
+.header-img{
+	display: inline-block;
+}
+
+h1 {
+	font-size: 5rem;
+	padding: 2% auto;
+}
+
+button {
+	padding: 1% 10%;
+}
+
+header img {
+	display: inline-block;
+	padding: 1% 2rem;
+	margin: 0 auto;
+}
+
+.top {
+	border-top: 2px solid grey;
+	padding: 5% 0;
+	font-size: 0;
+}
+
+.top-content {
+	display: inline-block;
+	/* margin-right: 3%; */
+	width: 50%;
+	font-size: 1rem;
+}
+
+.mid {
+	border-bottom: 2px solid grey;
+	padding: 5% 0;
+	font-size: 0;
+}
+
+.mid-content {
+	display: inline-block;
+	font-size: 1rem;
+	margin-right: 2%;
+	width: calc(100% / 3 - 2% );
+}
+
+.middle-img{
+	width: 100%;
+}
+
+.contact {
+	padding: 5% 0;
+}
+
+.contact p{
+	margin: 1% 0;
+}
+
+footer{
+	text-align:center;
+}
